@@ -134,11 +134,6 @@
 		AD43F1D926158A630068AABC = {
 			isa = PBXGroup;
 			children = (
-				8BA2C9762947BE0500C85F80 /* QuakesProvider.swift */,
-				8BA2C9712947BA7900C85F80 /* QuakeClient.swift */,
-				8BA2C96F2947B99C00C85F80 /* HTTPDataDownloader.swift */,
-				8BA2C96C2947B3D100C85F80 /* QuakeLocation.swift */,
-				8BA2C9582947A4DA00C85F80 /* QuakeError.swift */,
 				AA2F4EAF276BA585009837CD /* README.md */,
 				AD43F1E526158A640068AABC /* EarthquakesApp.swift */,
 				ADFCD5352630D167008A14D0 /* Models */,
@@ -175,6 +170,11 @@
 		ADFCD5352630D167008A14D0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8BA2C96F2947B99C00C85F80 /* HTTPDataDownloader.swift */,
+				8BA2C9712947BA7900C85F80 /* QuakeClient.swift */,
+				8BA2C9582947A4DA00C85F80 /* QuakeError.swift */,
+				8BA2C9762947BE0500C85F80 /* QuakesProvider.swift */,
+				8BA2C96C2947B3D100C85F80 /* QuakeLocation.swift */,
 				AD43F1F826158CD50068AABC /* Quake.swift */,
 				7CC62564273C2A9200F87758 /* Quake+Color.swift */,
 				8BA2C9692947A86100C85F80 /* GeoJSON.swift */,
